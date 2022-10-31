@@ -15,10 +15,10 @@ namespace Numero_Multiplo
             {
                 int a,b,x;
 
-                Console.WriteLine(" Calcular numero multiplo de otro ");
+                Console.WriteLine(" Calcular numero multiplo de otro \n ");
                 Console.WriteLine("Ingrese primer numero para evaluar");
                 a = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Ingrese segundo numero para evaluar");
+                Console.WriteLine("Ingrese segundo numero para evaluar \n ");
                 b = Int32.Parse(Console.ReadLine());
 
                 x = (b % a);

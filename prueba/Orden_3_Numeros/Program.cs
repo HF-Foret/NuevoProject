@@ -14,12 +14,12 @@ namespace Orden_3_Numeros
             {
                 int a,b,c;
 
-                Console.WriteLine("Ordenar 3 numeros de mayor a menor");
-                Console.WriteLine("Ingrese primer numero para ordenarlo");
+                Console.WriteLine("Ordenar 3 numeros de mayor a menor \n ");
+                Console.WriteLine("Ingrese primer numero para ordenarlo: ");
                 a = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Ingrese segundo numero para ordenalo");
+                Console.WriteLine("Ingrese segundo numero para ordenalo: ");
                 b = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Ingrese tercer numero para ordenarlo");
+                Console.WriteLine("Ingrese tercer numero para ordenarlo: \n ");
                 c = Int32.Parse(Console.ReadLine());
 
                 if (a > b && b > c)

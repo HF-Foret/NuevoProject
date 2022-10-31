@@ -13,8 +13,8 @@ namespace par_impar
             do { 
                 int x;
 
-                Console.WriteLine("Evualuar si un numero es par o impar ");
-                Console.WriteLine("Ingrese un numero para evaluar");
+                Console.WriteLine("Evualuar si un numero es par o impar \n ");
+                Console.WriteLine("Ingrese un numero para evaluar \n ");
                 x = Int32.Parse(Console.ReadLine());
 
                 if (x % 2 == 0)

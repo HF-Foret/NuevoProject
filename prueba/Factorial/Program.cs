@@ -13,8 +13,8 @@ namespace Factorial
             do
             {
                 int n,cont,f;
-                Console.WriteLine("Calculo de un numero para saber si es factorial");
-                Console.WriteLine("ingrese un numero para validar: ");
+                Console.WriteLine("Calculo de un numero para saber si es factorial \n ");
+                Console.WriteLine("ingrese un numero para validar: "); 
 
                 n = Convert.ToInt32(Console.ReadLine());
 

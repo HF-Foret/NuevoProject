@@ -15,12 +15,12 @@ namespace Mayor_Menor
             {
                 int num1,num2,num3;
 
-                Console.WriteLine("Evaluar 3 numero cual es mayor y cual es menor");
-                Console.WriteLine("Ingrese primer numero para evaluar");
+                Console.WriteLine("Evaluar 3 numero cual es mayor y cual es menor \n ");
+                Console.WriteLine("Ingrese primer numero para evaluar: ");
                 num1 = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Ingrese segundo numero para evaluar");
+                Console.WriteLine("Ingrese segundo numero para evaluar: ");
                 num2 = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Ingrese tercer numero para evaluar");
+                Console.WriteLine("Ingrese tercer numero para evaluar: \n ");
                 num3 = Int32.Parse(Console.ReadLine());
 
                 // abc,acb,bac,bca,cab,cba

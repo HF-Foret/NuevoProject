@@ -13,21 +13,21 @@ namespace Primos
             do
             {
                 int num;
-                Console.WriteLine("Calculo de un numero para saber si es numero primo");
-                Console.WriteLine("ingrese un numero para validar: ");
+                Console.WriteLine("Calculo de un numero para saber si es numero primo \n ");
+                Console.WriteLine("ingrese un numero para validar: \n ");
                 num = Convert.ToInt32(Console.ReadLine());
 
-                bool primo = true;
+                bool primo;
                 for (int i = 2; i < num; i++)
                 {
                     if (num % i == 0)
                     { 
                         primo = false;
-                        Console.WriteLine($"El numero {i} no es primo {num}");
+                        Console.WriteLine($"El numero {i} no es primo");
                     }
                     else
                     {
-                        Console.WriteLine($"El numero {i} es primo{num}");
+                        Console.WriteLine($"El numero {i} es primo");
                     }
                     
 

@@ -13,8 +13,8 @@ namespace Año_Bisiesto
             do
             {
                 int fecha;
-                Console.WriteLine("Calcular si un año es Bisiesto o no");
-                Console.WriteLine("Ingresa un el año a evaluar");
+                Console.WriteLine("Calcular si un año es Bisiesto o no \n ");
+                Console.WriteLine("Ingresa un el año a evaluar: \n ");
                 fecha = Int32.Parse(Console.ReadLine());
 
                 if (fecha % 4 != 0 || (fecha % 100 == 0 && fecha % 400 != 0))
